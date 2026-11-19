@@ -1,5 +1,5 @@
-FROM maven:3-openjdk-21 as builder
-LABEL authoers="brito"
+FROM maven:3.9-eclipse-temurin-21-jammy AS builder
+LABEL authors="guilherme-enrique-dias"
 
 WORKDIR /build
 
